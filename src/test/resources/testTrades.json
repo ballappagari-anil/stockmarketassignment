@@ -1,0 +1,62 @@
+[
+  {
+    "quantity": 42,
+    "price": 37.00,
+    "stockSymbol": "POP",
+    "tradeType": "BUY"
+  },
+  {
+    "quantity": 58,
+    "price": 128.34,
+    "stockSymbol": "POP",
+    "tradeType": "SELL"
+  },
+  {
+    "quantity": 10,
+    "price": 18.74,
+    "stockSymbol": "POP",
+    "tradeType": "SELL"
+  },
+  {
+    "quantity": 857,
+    "price": 12.34,
+    "stockSymbol": "POP",
+    "tradeType": "BUY"
+  },
+  {
+    "quantity": 58,
+    "price": 128.34,
+    "stockSymbol": "POP",
+    "tradeType": "BUY"
+  },
+  {
+    "quantity": 87,
+    "price": 4.00,
+    "stockSymbol": "POP",
+    "tradeType": "SELL"
+  },
+  {
+    "quantity": 87,
+    "price": 4.00,
+    "stockSymbol": "ALE",
+    "tradeType": "SELL"
+  },
+  {
+    "quantity": 12,
+    "price": 12.12,
+    "stockSymbol": "GIN",
+    "tradeType": "BUY"
+  },
+  {
+    "quantity": 13,
+    "price": 13.13,
+    "stockSymbol": "JOE",
+    "tradeType": "BUY"
+  },
+  {
+    "quantity": 14,
+    "price": 13.14,
+    "stockSymbol": "TEA",
+    "tradeType": "BUY"
+  }
+]

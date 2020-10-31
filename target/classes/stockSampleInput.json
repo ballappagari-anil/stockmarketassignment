@@ -1,0 +1,18 @@
+[
+  {
+    "stockSymbol" : "GIN",
+    "price" : "56.45"
+  },
+  {
+    "stockSymbol" : "GIN",
+    "price" : "53.45"
+  },
+  {
+    "stockSymbol" : "JOE",
+    "price" : "27.00"
+  },
+  {
+    "stockSymbol" : "POP",
+    "price" : "27.00"
+  }
+]
