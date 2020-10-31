@@ -1,4 +1,4 @@
-package com.stock.market;
+package com.stock.market.service;
 
 import com.stock.market.calculate.Calculate;
 import com.stock.market.data.Stock;

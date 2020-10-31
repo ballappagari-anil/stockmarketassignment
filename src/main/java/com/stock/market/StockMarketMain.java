@@ -2,6 +2,7 @@ package com.stock.market;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.stock.market.service.StockMarketCalculator;
 import com.stock.market.calculate.Calculate;
 import com.stock.market.input.TradeType;
 import com.stock.market.util.DataHolder;
@@ -15,15 +16,15 @@ import java.util.Map;
  * A sample main method which takes its input from a json files.
  */
 @Slf4j
-public class StockMarket {
+public class StockMarketMain {
     public static void main(String[] args) throws IOException {
         DataHolder dataHolder = new DataHolder();
         Calculate calculate = new Calculate();
         StockMarketCalculator marketCalculator = new StockMarketCalculator(dataHolder, calculate);
         ObjectMapper mapper = new ObjectMapper();
-        List<Map<String, String>> stockInputs = mapper.readValue(StockMarket.class.getClassLoader().getResource("stockSampleInput.json"), new TypeReference<List<Map<String, String>>>() {
+        List<Map<String, String>> stockInputs = mapper.readValue(StockMarketMain.class.getClassLoader().getResource("stockSampleInput.json"), new TypeReference<List<Map<String, String>>>() {
         });
-        List<Map<String, String>> tradeInputs = mapper.readValue(StockMarket.class.getClassLoader().getResource("tradeSampleInput.json"), new TypeReference<List<Map<String, String>>>() {
+        List<Map<String, String>> tradeInputs = mapper.readValue(StockMarketMain.class.getClassLoader().getResource("tradeSampleInput.json"), new TypeReference<List<Map<String, String>>>() {
         });
         log.info("recording the trades...");
         tradeInputs.forEach(tradeInput ->
